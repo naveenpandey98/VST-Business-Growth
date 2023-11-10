@@ -585,6 +585,9 @@ label {
 .header-info-wrap .list-wrap li i {
 	margin-right: 10px;
 }
+.header-info-wrap .list-wrap li:first-child i{
+	transform: rotate(118deg);
+}
 
 .header-info-wrap .list-wrap li a {
 	color: var(--tg-white);
