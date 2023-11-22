@@ -6353,7 +6353,10 @@ label {
 .footer-content .list-wrap {
 	display: flex;
 	align-items: center;
-	gap: 7px;
+	gap: 20px;
+	border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0px;
 }
 
 .footer-social .list-wrap li a,
