@@ -6878,6 +6878,17 @@ label {
 	}
 }
 
+/* ===================privacy policy us start==================== */
+.privacy-policy-section .policy-head-dv .policy-child-dv .policy-para-dv h2{
+	color: #006f97;
+}
+.privacy-policy-section .policy-head-dv .policy-child-dv .policy-para-dv h4{
+	color: #006f97;
+}
+.privacy-policy-section .policy-head-dv .policy-child-dv .policy-para-dv p{
+	text-align: justify;
+}
+/* ===================privacy policy us end====================== */
 /* ===================why choose us====================== */
 .our-why-choose-sec-row .main-timeline:before,
 .our-why-choose-sec-row .main-timeline:after {
