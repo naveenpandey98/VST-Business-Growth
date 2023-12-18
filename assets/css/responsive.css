@@ -50,7 +50,8 @@
 	font-size: 50px;
 }
 .slider-bg {
-	min-height: 680px;
+	min-height: 540px;
+	/* min-height: 680px; */
 }
 .banner-bg {
 	padding: 220px 0 220px;
