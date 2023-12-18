@@ -1439,10 +1439,10 @@ label {
     position: relative;
     padding: 100px 0;
     z-index: 1;
-    background-size: cover;
     background-position: center;
-    background-size: contain;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+    min-height: 540px;
 }
 
 .slider-bg::before {
