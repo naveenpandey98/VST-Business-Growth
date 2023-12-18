@@ -6477,6 +6477,9 @@ border: 1px solid #cccccc73;
     margin-bottom: 32px;
     color: var(--tg-gray-three);
 }
+.footer-content a {
+text-decoration: none;
+}
 
 .footer-content .list-wrap {
     display: flex;
@@ -7394,6 +7397,10 @@ border: 1px solid #cccccc73;
     line-height: 1.4;
     margin-bottom: 0px;
     text-transform: capitalize;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -7640,3 +7647,21 @@ border: 1px solid #cccccc73;
 
 
 /* ============================================================================== */
+.digi-card-heading h5{
+position: relative;
+}
+.digi-card-heading h5:before{
+content: "";
+top: -10px;
+position: absolute;
+border-top: 3px solid #005ba3;
+width: 35px;
+transition: all 0.5s;
+}
+.digi-card-heading:hover h5:before{
+content: "";
+top: -10px;
+position: absolute;
+border-top: 3px solid #005ba3;
+width: 55px;
+}
